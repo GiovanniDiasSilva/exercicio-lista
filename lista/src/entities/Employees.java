@@ -46,7 +46,7 @@ public class Employees {
 
 	@Override
 	public String toString() {
-		return "Employees [id= " + id + ", name= " + name + ", " + String.format("%.2f", wage) + "]";
+		return "Employees [id= " + id + ", name= " + name + ", " + String.format("new wage %.2f", wage) + "]";
 	}
 
 }

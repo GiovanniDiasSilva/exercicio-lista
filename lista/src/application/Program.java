@@ -15,7 +15,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 
 		List<Employees> list = new ArrayList<>();
-
+		System.out.println("Exercise number 1");
 		System.out.println("How many employees will be registred? ");
 		int n = sc.nextInt();
 
